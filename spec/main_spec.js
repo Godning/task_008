@@ -9,7 +9,7 @@ chai.use(sinonChai);
 var main = require("../lib/main.js");
 
 
-describe("POST测试", function(){
+describe("任务8Postnet测试", function(){
     sinon.spy(console, 'log');
 
     it("5位编码测试", function(){
